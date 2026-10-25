@@ -1,0 +1,96 @@
+
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Python Cache & Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ==========================================
+# Python Packaging
+# ==========================================
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# TensorFlow / Keras Models
+# ==========================================
+models/
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+checkpoint
+
+# ==========================================
+# Hugging Face Cache
+# ==========================================
+.cache/
+huggingface/
+hf_cache/
+
+# ==========================================
+# Generated Outputs
+# ==========================================
+outputs/
+screenshots/
+reports/
+
+# ==========================================
+# Local datasets
+# Download separately from DigiSkills LMS
+# ==========================================
+/data/*
+!/data/.gitkeep
+
+# ==========================================
+# Temporary Files & Logs
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# VS Code Local Settings
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# LibreOffice Temporary Files
+# ==========================================
+.~lock.*
